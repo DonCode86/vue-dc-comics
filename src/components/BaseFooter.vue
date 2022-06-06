@@ -69,6 +69,9 @@
                     <li><a href="#">DC power visa</a></li>
                 </ul>
             </div>
+            <div class="bg-container">
+                
+            </div>
         </div>
     </div>
     <div class="bottom-social-footer">
@@ -119,7 +122,7 @@ export default {
 
     &-top-blue .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
     
@@ -133,12 +136,13 @@ export default {
 
 .middle-footer .container {
     display: flex;
-    padding: 1.25rem 0;
 }
 
 
 .info-col {
-    margin-right: 1.25rem;
+    width: 20%;
+    margin-right: .25rem;
+    margin-top: .625rem;
     line-height: 0.9rem;
 }
 
@@ -161,6 +165,16 @@ export default {
     padding: .6125rem 0;
 
 }
+
+.bg-container {
+    width: 100%;
+    height: 18.75rem;
+    background-image: url("../assets/img/dc-logo-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: right;
+}
+
 .bottom-social-footer {
     background-color: #303030;
     padding: 1.40rem 0;
